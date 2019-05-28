@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Auto Smile",
+  "version": "0.0.1",
+  "browser_action": {
+    "default_icon": {
+      "32": "icons/auto_smile_icon32.png",
+      "48": "icons/auto_smile_icon48.png",
+      "128": "icons/auto_smile_icon128.png"
+    }
+  },
+  "icons": {
+    "32": "icons/auto_smile_icon32.png",
+    "48": "icons/auto_smile_icon48.png",
+    "128": "icons/auto_smile_icon128.png"
+  },
+  "background": {
+    "scripts": ["src/smile.js"],
+    "persistent": true
+  },
+  "permissions":["*://www.amazon.co.uk/*", "*://www.amazon.com/*", "webRequest","webRequestBlocking"]
+}
