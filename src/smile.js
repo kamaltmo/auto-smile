@@ -14,6 +14,6 @@ chrome.browserAction.onClicked.addListener(() => {
 chrome.webRequest.onBeforeRequest.addListener(({ url }) => enabled ? {
   redirectUrl: insertSmile(url)
 } : undefined, {
-  urls: ["*://www.amazon.co.uk/*", "*://www.amazon.com/*"],
+  urls: ["*://www.amazon.co.uk/*", "*://www.amazon.com/*", "*://www.amazon.de/*"],
   types: ['main_frame']
 }, ["blocking"]);

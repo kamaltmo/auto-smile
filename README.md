@@ -8,3 +8,7 @@ Amazon has recently introduced the `smile` variant of their site, if you shop on
 
 - I am forgetful 
 - The greater good
+
+## Link
+
+- [Chome Webstore](https://chrome.google.com/webstore/detail/auto-smile/bpcdebmnpjdeblfamdbpcenjoaffokkp)
